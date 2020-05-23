@@ -54,7 +54,7 @@ internal class TtKtTest {
         val sysOut = ByteArrayOutputStream()
         System.setOut(PrintStream(sysOut))
 
-        Tt()
+        torT()
 
         assertEquals(sysOut.toString(), output+ System.lineSeparator())
         println(sysOut.toString())
